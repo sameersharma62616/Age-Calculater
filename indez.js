@@ -13,12 +13,12 @@ const calculateAge = () => {
     }
 
     let dob = new Date(`${date} ${month} ${year}`);
-    let now = new Date(); //now here he takes present date autometicaly
+    let now = new Date();
    
-    let difference = now-dob;  // here they give me result on miliseconds
-    console.log(difference);   //so now we convert it into days
+    let difference = now-dob;  
+    console.log(difference);   
     
-    let days = Math.round(difference / (1000*60*60*24));   //here we convert the miliseconds into the days.
+    let days = Math.round(difference / (1000*60*60*24));   
 
     console.log(days);
     alert(`your age is ${days} days`);
