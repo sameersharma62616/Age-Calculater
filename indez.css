@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(41, 44, 41);
+}
+.circle-1{
+   height: 300px;
+   width: 300px;
+   background: linear-gradient(orange,blue);
+   position: absolute;
+   left: 400px;
+   z-index: -2;
+   border-radius: 50%;
+}
+.circle-2{
+    height: 300px;
+    width: 300px;
+    background: linear-gradient(skyblue,green);
+    position: absolute;
+    right: 400px;
+    top: 450px;
+    z-index: -2;
+    border-radius: 50%;
+}
+.blur-back{
+    background: rgba(235, 255, 255, 0.2);
+    height: 280px;
+    width: 722px;
+    position: absolute;
+    margin-top: 310px;
+    z-index: -1;
+    border-radius: 20px;
+}
+.body{
+    padding: 50px;
+    margin-top: 310px;
+    color: black;
+    font-family: sans-serif;
+}
+.date{
+    height: 40px;
+    width: 150px;
+    border-radius: 10px;
+    border-color: transparent;
+}
+.all-months{
+    height: 42.5px;
+    width: 154px;
+    border-radius: 10px;
+    border-color: transparent;
+}
+.year{
+    height: 37px;
+    width: 150px;
+    border-radius: 10px;
+    border-color: transparent;
+}
+.row{
+    display: flex;
+    margin: 30px;
+    gap: 50px;
+}
+h1{
+    margin-left: 26%;
+    color: white;
+}
+.calculate{
+    height: 25px;
+    width: 100px;
+    margin-left: 263px;
+    border-radius: 10px;
+    border-color: transparent;
+    background-color: rgb(231, 161, 31);
+    font-family: sans-serif;
+    color: white;
+}
